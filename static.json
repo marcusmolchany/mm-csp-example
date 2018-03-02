@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "/**": {
+      "Strict-Transport-Security": "max-age=7776000",
+      "Content-Security-Policy": "default-src 'self'; connect-src 'self'; font-src 'self'; frame-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri /report_csp"
+    }
+  },
+  "https_only": true,
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  }
+}
